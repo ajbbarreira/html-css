@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(203, 230, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(5, 50, 83);
+}
+
+h2{
+    color: rgb(25, 100, 126);
+}
+
+/* Seletor de ID - único na página */
+h1#principal{
+    text-align: center;
+    background-color: rgb(5, 50, 83);
+    color: white;
+}
+
+/* Seletor de Classe - reutilizável */
+.basico{
+    color: rgb(25, 126, 76);
+    font-weight: bold;
+}
+
+.intermedio{
+    color: rgb(243, 150, 8);
+}
+
+.avancado{
+    color: rgb(231, 12, 12);
+}
+
+.destaque{
+    background-color: rgba(232, 232, 87, 0.361);
+}

@@ -1,0 +1,109 @@
+/* Estilo geral da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333333;
+}
+
+/* Imagens responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 20px 15px 25px 15px;
+}
+
+header .banner {
+    margin: 0 auto 15px auto;
+    border-radius: 6px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    margin: 5px 0 0 0;
+    font-size: 1.2em;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 15px 30px 15px;
+}
+
+/* Secção introdutória */
+.intro {
+    margin-bottom: 25px;
+}
+
+.intro h3 {
+    color: #1e88e5;
+    margin-bottom: 10px;
+}
+
+.intro-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+}
+
+.intro-conteudo .texto {
+    flex: 1 1 260px;
+}
+
+.intro-conteudo .imagem {
+    flex: 1 1 220px;
+}
+
+/* Caixa de boas práticas */
+.boas-praticas {
+    background-color: #ffffff;
+    border: 1px solid #d0d7e2;
+    border-radius: 5px;
+    padding: 15px 20px 20px 20px;
+    margin-top: 10px;
+}
+
+.boas-praticas h3 {
+    color: #1e88e5;
+    margin-top: 0;
+}
+
+.boas-praticas ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.boas-praticas li {
+    margin-bottom: 6px;
+}
+
+.boas-praticas .icone-stop {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1e88e5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
