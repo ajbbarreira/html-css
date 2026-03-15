@@ -77,16 +77,16 @@ A página deve cumprir estes requisitos:
 ```
 
 - Inserir um vídeo:
-    - Pode ser um `<iframe>` incorporando um vídeo do YouTube sobre plataformas/IDE para Android (ex.: Android Studio, Flutter, etc.).[^3_1][^3_2]
+    - Pode ser um `<iframe>` incorporando um vídeo do YouTube sobre plataformas/IDE para Android (ex.: Android Studio, Flutter, etc.).
     - Ou um `<video>` com ficheiro local (opcional).
-- O vídeo deve estar centrado e ser responsivo: largura máxima 560px, ocupando 100% da largura disponível em ecrãs pequenos.[^3_3][^3_4]
+- O vídeo deve estar centrado e ser responsivo: largura máxima 560px, ocupando 100% da largura disponível em ecrãs pequenos.
 
 10. Área para lista da evolução histórica do Android
 
 - Ainda dentro do `<main>`, criar outra secção com o título “Evolução histórica do Android”.
 - Adicionar uma lista ordenada `<ol>` com pelo menos 5 itens, cada um com:
     - Ano ou versão (ex.: “2008 – Android 1.0”).
-    - Pequena descrição (1 frase) da importância dessa versão (primeiro lançamento, mudança de interface, etc.).[^3_5][^3_6][^3_7]
+    - Pequena descrição (1 frase) da importância dessa versão (primeiro lançamento, mudança de interface, etc.).
 
 ***
 Entrega:
